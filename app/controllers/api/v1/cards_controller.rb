@@ -20,7 +20,7 @@ module Api
                     
                 end
                 def card_params
-                    params.permit(:que,:ans,:difficulty)
+                    params.permit(:que,:ans,:difficulty,:tags)
                 end
             end
     end
