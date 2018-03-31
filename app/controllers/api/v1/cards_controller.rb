@@ -17,9 +17,10 @@ module Api
                         render json: {status: 'success', msg: 'card created',data: card},status: :ok
                     end 
                     
+                    
                 end
                 def card_params
-                    params.permit(:que,:ans)
+                    params.permit(:que,:ans,:difficulty)
                 end
             end
     end
