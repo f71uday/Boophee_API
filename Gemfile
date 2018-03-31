@@ -13,6 +13,8 @@ gem 'rails', '~> 5.1.5'
 gem 'mysql2'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
+# redefining Api calls using Graphql API calls 
+gem 'graphql'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production

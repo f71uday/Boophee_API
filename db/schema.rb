@@ -10,9 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180324203750) do
+ActiveRecord::Schema.define(version: 20180331124545) do
 
   create_table "cards", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
+    t.string "que"
+    t.string "ans"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "difficulty"
+  end
+
+  create_table "graph_cards", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.string "que"
     t.string "ans"
     t.datetime "created_at", null: false

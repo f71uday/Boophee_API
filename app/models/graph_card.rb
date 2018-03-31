@@ -1,0 +1,2 @@
+class GraphCard < ApplicationRecord
+end
